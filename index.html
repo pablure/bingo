@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
     <title>Vite App</title>
   </head>
   <body>
+    <div id="titulos"> 
+      <div>Jugador 1</div>
+      <div>A JUGAR!!</div>
+      <div>Jugador 2</div>
+    </div>
     <div id="app">
-      <div id="jugador1"></div>
-      <div id="bingo">
-        <button>Sacar bola</button>
+      <div id="jugador1" class="carton">
+        
       </div>
-      <div id="jugador2"></div>
-  </div>
+      <div id="mesa">
+        <h1>Juego de Bingo!!</h1>
+        <div id="bingo"></div>
+        <button id="boton">Sacar bola</button>        
+      </div>
+      <div id="jugador2" class="carton">
+        
+      </div>
+    </div>
+    <div>
+      <p id="historia"></p>
+    </div>
+    
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

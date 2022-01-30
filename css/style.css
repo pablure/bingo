@@ -1,9 +1,84 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+   
+}
+h1{
+  text-align: center;
+}
 #app {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 60%;
+  min-height: 500px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  background-color: rgb(225, 215, 235);
 }
 
+.carton{
+  text-align: center;
+  width: 25%;
+  min-height: 180px;
+  border: 2px solid blue;
+  background-color: rgb(166, 166, 226);
+  border-radius: 5px;
+}
+#bingo{
+  font-size: 60px;
+  line-height: 100px;
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: white;
+}
+#jugador1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#jugador2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.number{
+  border-radius: 25px;
+  border: 1px solid white;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  width: 15%;
+  margin-top: 6px;
+  padding: 2px;
+}
+#titulos{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-size: 30px;
+  width: 65%;
+  position: relative;
+  top: 200px
+  
+}
+#historia{
+  margin: 0 auto;
+  width: 55%;
+  position: relative;
+  top: -75px;
+}
+.tachar{
+  text-decoration: line-through red;
+}
